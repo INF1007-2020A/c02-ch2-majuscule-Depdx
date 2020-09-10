@@ -1,39 +1,16 @@
-test_upper_case_names (__main__.TestExercice) ... FAIL
+test_upper_case_names (__main__.TestExercice) ... ERROR
 
 ======================================================================
-FAIL: test_upper_case_names (__main__.TestExercice)
+ERROR: test_upper_case_names (__main__.TestExercice)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "test_exercice.py", line 21, in test_upper_case_names
-    'Toutes les lettres doivent être en majuscule.'
-AssertionError: Lists differ: ['Z[^P', 'MXO[[X', 'ZQ^bQad', 'QdMYQZ', '_M[59 chars]NQ`'] != ['NORD', 'ALCOOL', 'NERVEUX', 'EXAMEN', 'SA[57 chars]BET']
-
-First differing element 0:
-'Z[^P'
-'NORD'
-
-- ['Z[^P',
--  'MXO[[X',
--  'ZQ^bQad',
--  'QdMYQZ',
--  '_MN[`',
--  'aZU`é',
--  'PUbQ^`U^',
--  'M__[OUM`U[Z',
--  '\\XaUQ',
--  'MX\\TMNQ`']
-+ ['NORD',
-+  'ALCOOL',
-+  'NERVEUX',
-+  'EXAMEN',
-+  'SABOT',
-+  'UNITÉ',
-+  'DIVERTIR',
-+  'ASSOCIATION',
-+  'PLUIE',
-+  'ALPHABET'] : Toutes les lettres doivent être en majuscule.
+  File "test_exercice.py", line 17, in test_upper_case_names
+    output = list(map(exercice.majuscule, self.words))
+  File "/home/runner/work/c02-ch2-majuscule-Depdx/c02-ch2-majuscule-Depdx/exercice.py", line 5, in majuscule
+    delta_maj_min = ord(a)-ord(A)
+NameError: name 'a' is not defined
 
 ----------------------------------------------------------------------
-Ran 1 test in 0.001s
+Ran 1 test in 0.000s
 
-FAILED (failures=1)
+FAILED (errors=1)
