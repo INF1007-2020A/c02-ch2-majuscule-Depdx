@@ -4,7 +4,8 @@ def majuscule(mot):
     resultat = ''
     for lettre in mot:
         # TODO completer la fonction ici
-        
+        if 96 < ord(lettre) < 123:
+            lettre = chr(ord(lettre)-20)
         resultat += lettre
     return resultat
 
