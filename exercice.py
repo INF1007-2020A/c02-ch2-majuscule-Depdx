@@ -2,10 +2,11 @@
 # -*- coding: utf-8 -*-
 def majuscule(mot):
     resultat = ''
+    delta_maj_min = ord(a)-ord(A)
     for lettre in mot:
         # TODO completer la fonction ici
         if 96 < ord(lettre) < 123:
-            lettre = chr(ord(lettre)-20)
+            lettre = chr(ord(lettre)-delta_maj_min)
         resultat += lettre
     return resultat
 
