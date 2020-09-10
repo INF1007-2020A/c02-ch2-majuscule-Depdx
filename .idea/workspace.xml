@@ -19,6 +19,29 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RunManager">
+    <configuration name="pytest in test_exercice.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="c02-ch2-majuscule-Depdx" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_exercice.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest in test_exercice.py" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -35,6 +58,22 @@
       <screen x="1283" y="-1203" width="1920" height="1200" />
     </state>
     <state x="1697" y="-948" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/0.2160.2194.629/-637.-1200.1920.1200/1283.-1203.1920.1200@1283.-1203.1920.1200" timestamp="1599774436410" />
+    <state width="1899" height="335" key="GridCell.Tab.0.bottom" timestamp="1599776135609">
+      <screen x="1283" y="-1203" width="1920" height="1200" />
+    </state>
+    <state width="1899" height="335" key="GridCell.Tab.0.bottom/0.0.1536.824/0.2160.2194.629/-637.-1200.1920.1200/1283.-1203.1920.1200@1283.-1203.1920.1200" timestamp="1599776135609" />
+    <state width="1899" height="335" key="GridCell.Tab.0.center" timestamp="1599776135609">
+      <screen x="1283" y="-1203" width="1920" height="1200" />
+    </state>
+    <state width="1899" height="335" key="GridCell.Tab.0.center/0.0.1536.824/0.2160.2194.629/-637.-1200.1920.1200/1283.-1203.1920.1200@1283.-1203.1920.1200" timestamp="1599776135609" />
+    <state width="1899" height="335" key="GridCell.Tab.0.left" timestamp="1599776135609">
+      <screen x="1283" y="-1203" width="1920" height="1200" />
+    </state>
+    <state width="1899" height="335" key="GridCell.Tab.0.left/0.0.1536.824/0.2160.2194.629/-637.-1200.1920.1200/1283.-1203.1920.1200@1283.-1203.1920.1200" timestamp="1599776135609" />
+    <state width="1899" height="335" key="GridCell.Tab.0.right" timestamp="1599776135609">
+      <screen x="1283" y="-1203" width="1920" height="1200" />
+    </state>
+    <state width="1899" height="335" key="GridCell.Tab.0.right/0.0.1536.824/0.2160.2194.629/-637.-1200.1920.1200/1283.-1203.1920.1200@1283.-1203.1920.1200" timestamp="1599776135609" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
